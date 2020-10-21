@@ -13,4 +13,20 @@ public class Demo {
 			System.out.println();
 		}
 	}
+
+	public static String arrToString(int[] arr) {
+		return randomArray.arrToString(arr);
+	}
+
+	public static String arrayDeepToString(int[][] arr) {
+    return randomArray.arrToString(arr);
+  }
+
+	public static int[][] create2DArray(int rows, int cols, int maxValue) {
+		return randomArray.create2DArray(rows,cols,maxValue);
+	}
+
+	public static int[][] create2DArrayRandomized(int rows, int cols, int maxValue) {
+		return randomArray.create2DArrayRandomized(rows,cols,maxValue);
+	}
 }
